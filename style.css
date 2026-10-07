@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 40px;
+    color: #333;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container for created components */
+#container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Dynamically created component */
+.component {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #007bff;
+}
+
+.component h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.component p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
